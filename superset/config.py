@@ -258,6 +258,10 @@ SQLGLOT_DIALECTS_EXTENSIONS: DialectExtensions | Callable[[], DialectExtensions]
 # The limit of queries fetched for query search
 QUERY_SEARCH_LIMIT = 1000
 
+# ===== Query Parameters Limit in Sql Lab ========
+QUERY_PARAM_LIMIT =  5
+QUERY_PARAM_OPTION_LIMIT = 1000
+
 # Flask-WTF flag for CSRF
 WTF_CSRF_ENABLED = True
 
