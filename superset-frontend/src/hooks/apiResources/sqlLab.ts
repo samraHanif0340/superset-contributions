@@ -52,6 +52,7 @@ export type InitialState = {
     latest_query: QueryResponse | null;
     autorun?: boolean;
     template_params: string | null;
+    query_params_config: string | null;
     hide_left_bar?: boolean;
     saved_query: { id: number } | null;
     extra_json?: Record<string, any>;

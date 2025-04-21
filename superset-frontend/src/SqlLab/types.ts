@@ -58,6 +58,7 @@ export interface QueryEditor {
   hideLeftBar?: boolean;
   latestQueryId?: string | null;
   templateParams?: string;
+  paramsConfig?: string;
   selectedText?: string;
   queryLimit?: number;
   description?: string;

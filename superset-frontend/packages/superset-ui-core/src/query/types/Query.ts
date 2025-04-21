@@ -327,6 +327,7 @@ export type Query = {
   tempTable: string;
   trackingUrl: string | null;
   templateParams: any;
+  paramsConfig: any;
   rows: number;
   queryLimit: number;
   limitingFactor: string;
@@ -383,6 +384,7 @@ export const testQuery: Query = {
   tempSchema: null,
   trackingUrl: null,
   templateParams: null,
+  paramsConfig: null,
   rows: 42,
   queryLimit: 100,
   limitingFactor: '',

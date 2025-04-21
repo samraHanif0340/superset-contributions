@@ -70,6 +70,7 @@ export const mapQueryResponse = (
   | 'time'
   | 'duration'
   | 'templateParams'
+  | 'paramsConfig'
   | 'querylink'
   | 'output'
   | 'actions'
