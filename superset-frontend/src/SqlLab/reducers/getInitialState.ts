@@ -88,6 +88,7 @@ export default function getInitialState({
         remoteId: activeTab.saved_query?.id || null,
         autorun: Boolean(activeTab.autorun),
         templateParams: activeTab.template_params || undefined,
+        paramsConfig: activeTab.query_params_config || undefined,
         dbId: activeTab.database_id,
         catalog: activeTab.catalog,
         schema: activeTab.schema,

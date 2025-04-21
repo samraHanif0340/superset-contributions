@@ -199,6 +199,7 @@ export const defaultQueryEditor = {
   remoteId: null,
   hideLeftBar: false,
   templateParams: '{}',
+  paramsConfig: '[]',
 };
 
 export const extraQueryEditor1 = {
@@ -597,6 +598,7 @@ const baseQuery: QueryResponse = {
   resultsKey: null,
   trackingUrl: null,
   templateParams: null,
+  paramsConfig: null,
   limitingFactor: 'capacity',
   duration: '2334645675467',
   time: { key: 'value' },

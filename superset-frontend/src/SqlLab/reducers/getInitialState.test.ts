@@ -49,6 +49,7 @@ const apiDataWithTabState = {
     table_schemas: [],
     saved_query: null,
     template_params: null,
+    query_params_config: null,
     latest_query: null,
   },
 };
@@ -189,6 +190,7 @@ describe('getInitialState', () => {
           ],
           saved_query: null,
           template_params: null,
+          query_params_config: null,
           latest_query: null,
         },
       }).sqlLab.tables;
